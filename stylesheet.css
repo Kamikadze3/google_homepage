@@ -1,0 +1,135 @@
+* { 
+	margin: 0; padding: 0; 
+	}
+body {
+	font-family: Arial, sans-serif;
+	overflow-x: hidden;
+	}
+#navbar {
+	padding: 12px 12px 0px 0px;
+	}
+div a {
+	font-size: 13px;
+	text-decoration: none;
+	color: #404040;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: inline-block;
+	float: right;
+	padding: 4px;
+}
+.text_link:hover {
+	text-decoration: underline;
+	}
+#tile, #bell, #plus  {
+	position: relative;
+	width: 23px;
+	height: 23px;
+	opacity: 0.55;
+	bottom: 5px;
+	}
+#avatar {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	bottom: 8px;
+	opacity: 0.99;
+	}
+#tile:hover, #bell:hover, #plus:hover, #avatar:hover {
+	opacity: 1;
+	}
+#logo {
+	text-align: center;
+	padding-top: 184px;
+	}
+div img {
+	width: 269px;
+	height: 95px;
+	}
+	
+#country {
+	position: relative;
+	left: 109px;
+	top: -29px;
+	color: #777;
+	font-weight: bold;
+	}
+#input {
+	position: relative;
+	top: -15px;
+	left: 10px;
+	border: solid #D3D3D3;
+	border-width: 1px 1px 1px 1px;
+	padding: 0px 40px 0px 5px;
+	height: 30px;
+	width: 545px;
+	font-size: 16px;
+	
+	}
+#input:hover {
+	border-color: #777;
+	}
+#input:focus {
+	border-color: #4D90FE;
+	}
+#klaw {
+	position: relative;
+	height: 11px;
+	width: 19px;
+	padding: 9px;
+	right: 30px;
+	top: -6px;
+	opacity: 0.6;
+	}
+#klaw:hover {
+	opacity: 0.8;
+	}
+.button {
+	display: inline-block;
+	height: 29px;
+	line-height: 29px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	color: rgb(68, 68 ,68);
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	background: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1) repeat scroll 0% 0% transparent;
+	padding: 0px 8px 30px 8px;
+	
+	
+	
+}
+.button:hover {
+	border-bottom: 2px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+	}
+#search {
+	margin-right: 8px;
+	min-width: 54px;
+	}
+#traf {
+	margin-left: 8px;
+	min-width: 54px;
+	}
+#footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	border-top: 1px solid #e4e4e4;
+
+
+}
+span a:hover {
+	text-decoration: underline;
+	}
+#footer_left {
+	float: left;
+	padding-left: 15px;
+}
+#footer_right { 
+	float: right;
+	padding-right: 15px;
+}
